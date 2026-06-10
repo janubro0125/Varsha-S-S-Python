@@ -104,7 +104,7 @@ print("4.Square")
 a=98765
 b=a//100
 c=b%10
-d=c**2
+d=c**c
 print("Square of",c,"=",d)
 """
 """
