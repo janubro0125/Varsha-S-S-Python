@@ -83,6 +83,20 @@ elif Operator=="/":
     print("/=",num1/num2)
 """
 """
+print("12.Library books late return")
+latedays=int(input("Enter number of days late to return the book:"))
+if 0<latedays<=5:
+    print("40 paisa per day")
+    fine=latedays*0.40
+elif 6<=latedays<=10:
+    print("65 paisa per day")
+    fine=latedays*0.65
+elif latedays>10:
+    print("80 paisa per day")
+    fine=latedays*0.80
+print(fine)
+"""
+"""
 print("13.Buzz number")
 num=int(input("Weight of parcel:"))
 if num%7==0 or num%10==7:
@@ -90,9 +104,21 @@ if num%7==0 or num%10==7:
 else:
     print("Not Buzz number")
 """
+"""
 print("14.Automorphic number")
 num1=int(input("Enter number:"))
 num2=num1*num1
-firstdigit=num1
 lastdigit=num2%10
-if lastdiigit==
+if lastdigit==num1:
+    print("Automorphic number")
+else:
+    print("Not Automorphic number")
+"""
+"""
+print("15.Capital letter or not")
+a=input("Enter a letter:")
+if a==("A",a,"Z"):
+    print("Capital letter")
+else:
+    print("Not Capital letter")
+"""
